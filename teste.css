@@ -1,0 +1,29 @@
+.button {
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    margin-top: 25px;
+    right: 0;
+    margin-right: 15px;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.ladomenu{
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+    right: 70px;
+
+}
+
+.cnb {
+    color: white ;
+}
+
+.img-fluid{
+    width: 100%;    
+}

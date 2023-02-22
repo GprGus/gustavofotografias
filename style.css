@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
+}
+
+.fas {
+    font-size: 180px;
+    color: orangered;
+    margin-right: 15px;
+}
+
+.menuLuis{
+    margin-top: -650px;
+    margin-bottom: 600px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("parallaxori.jpg");
+  
+    /* Set a specific height */
+    min-height: 650px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+p {
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+}
+
+.bg-perera {
+    background-color: #adadad;
+}
+
+a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 2.4em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 100px;
+    color: darkslategrey;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 300 !important;
+}
+
+.nav-link:hover {
+    color: #444444 !important;
+}
+
+/* CSS FLEXBOX 1 */
+
+.julina {
+    display: flex;
+    margin: 40px;
+}
+
+.julina > div {
+    color: black;
+    margin-left: 30px;
+}
+
+.bioo {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 72px;
+}
+
+.textobio {
+    margin-left: 20px;
+}
+
+.animais {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.animais > div {
+    flex: 1 1 350px;
+    margin: 1px;
+}
+
+.flores {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flores > div {
+    flex: 1 1 350px;
+    margin: 1px;
+}
+
+.pessoas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.pessoas > div {
+    flex: 1 1 250px;
+    margin: 1px;
+}
+
+.lua {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.lua > div {
+    flex: 1 1 350px;
+    margin: 1px;
+}
+
+.ceu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ceu > div {
+    flex: 1 1 400px;
+    margin: 1px;
+}
+
+.button {
+    margin: 5px;
+    color: whitesmoke;
+}
+
+.textonav {
+    color: white;
+}
+
+#menu {
+    display: block;
+    margin-left: 7px;
+    margin-top: 5px;
+    background-color: #343A40;
+}
+
+#menu2 {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+#style {
+  height:40px;
+  width:50px;
+  position:absolute;
+}
+
+#chuva {
+    height: 40px;
+    width: 50px;
+    position: absolute;
+}
+
+#fechar {
+    background-color: #343A40;
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    #chuva{
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #menu2{
+        font-size: medium;  
+        display: flex;
+    }
+    .rs{
+        text-align: center;
+    }
+}
+
